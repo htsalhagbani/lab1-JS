@@ -5,8 +5,10 @@ console.log(`The area of the rectangle is:${height*width}`);
 
 let degree=40;
 let F=(degree*9/5)+32;
-let C=(degree-32)*9/5;
+console.log(`NN°C ${degree} NN°F ${F}`);
+let C=(F-32)*5/9;
 console.log(`NN°F ${F} NN°C ${C}`);
+
 
 let hour=1;
 let seconds = hour * 60 * 60;
